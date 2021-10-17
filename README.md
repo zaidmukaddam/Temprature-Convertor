@@ -12,4 +12,4 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 
 # GUI
 
-<img src="https://github.com/zaidmukaddam/Temprature-Convertor/tree/main/gui.jpeg">
+<img src="https://github.com/zaidmukaddam/Temprature-Convertor/blob/main/gui.jpeg">
