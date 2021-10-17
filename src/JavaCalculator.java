@@ -1,13 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @version 1.0.0
+ * @category Utility
+ * @author Zaid Mukaddam K039
+ * @author Ansh Malik K029
+ * @author Harsh Papnoi K043
+ * @author Prabhjot Singh K049
  */
 
-/**
- *
- * @author Zaid
- */
 public class JavaCalculator extends javax.swing.JFrame {
     /**
      * Creates new form JavaCalculator
@@ -67,7 +66,6 @@ public class JavaCalculator extends javax.swing.JFrame {
         btnConvert = new javax.swing.JButton();
         textField1 = new javax.swing.JTextField();
         jLabel1 = new javax.swing.JLabel();
-
 
         jList1.setModel(new javax.swing.AbstractListModel<String>() {
             String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
@@ -569,11 +567,6 @@ public class JavaCalculator extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         // <editor-fold defaultstate="collapsed" desc=" Look and feel setting code
         // (optional) ">
-        /*
-         * If Nimbus (introduced in Java SE 6) is not available, stay with the default
-         * look and feel. For details see
-         * http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
