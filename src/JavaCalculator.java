@@ -148,6 +148,14 @@ public class JavaCalculator extends javax.swing.JFrame {
             }
         });
 
+        btnPoint.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
+        btnPoint.setText(".");
+        btnPoint.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDotActionPerformed(evt);
+            }
+        });
+
         btnEight8.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         btnEight8.setText("8");
         btnEight8.addActionListener(new java.awt.event.ActionListener() {
@@ -251,7 +259,11 @@ public class JavaCalculator extends javax.swing.JFrame {
         btnPlusMinus.setText("+/-");
         btnPlusMinus.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnPlusMinusActionPerformed(evt);
+                try {
+                    btnPlusMinusActionPerformed(evt);
+                } catch (Exception e) {
+                    btnACActionPerformed(evt);
+                }
             }
         });
 
@@ -259,12 +271,16 @@ public class JavaCalculator extends javax.swing.JFrame {
         btnConvert.setText("Convert");
         btnConvert.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnConvertActionPerformed(evt);
+                try {
+                    btnConvertActionPerformed(evt);
+                } catch (Exception e) {
+                    btnACActionPerformed(evt);
+                }
             }
         });
 
         textField1.setHorizontalAlignment(javax.swing.JTextField.RIGHT);
-        textField1.setText("");
+        textField1.setText("0");
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 24)); // NOI18N
         jLabel1.setText("Temperature Converter");
