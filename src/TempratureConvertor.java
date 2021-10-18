@@ -9,7 +9,7 @@
 
 public class TempratureConvertor extends javax.swing.JFrame {
     /**
-     * Creates new form JavaCalculator
+     * Creates new frame TempratureConvertor
      */
     double temp, temperature;
     String i1 = "Celsius", i2 = "Fahrenheit";
