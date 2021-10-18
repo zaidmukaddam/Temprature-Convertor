@@ -15,7 +15,7 @@ public class TempratureConvertor extends javax.swing.JFrame {
     String i1 = "Celsius", i2 = "Fahrenheit";
 
     public TempratureConvertor() {
-        super("Temprature Convertor");
+        super("    Temprature Convertor    ");
         initComponents();
     }
 
@@ -447,17 +447,16 @@ public class TempratureConvertor extends javax.swing.JFrame {
                                         javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addContainerGap(60, Short.MAX_VALUE)));
 
-        jTabbedPane1.addTab("Temperature", jPanel1);
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout
-                        .createSequentialGroup().addGap(19, 19, 19).addComponent(jTabbedPane1,
+                        .createSequentialGroup().addGap(19, 19, 19).addComponent(jPanel1,
                                 javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(20, Short.MAX_VALUE)));
         layout.setVerticalGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(layout.createSequentialGroup().addContainerGap()
-                        .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE,
+                        .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE,
                                 javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addContainerGap(21, Short.MAX_VALUE)));
 
@@ -596,17 +595,17 @@ public class TempratureConvertor extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
-                    ex);
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE,
+                    null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
-                    ex);
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE,
+                    null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
-                    ex);
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE,
+                    null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
-                    ex);
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE,
+                    null, ex);
         }
         // </editor-fold>
 

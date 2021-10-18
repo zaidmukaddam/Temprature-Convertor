@@ -1,5 +1,7 @@
 *.class
 .vscode
+*.mf
+*.jar
 
 bin/
 lib/
