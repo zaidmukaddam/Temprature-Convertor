@@ -7,14 +7,15 @@
  * @author Prabhjot Singh K049
  */
 
-public class JavaCalculator extends javax.swing.JFrame {
+public class TempratureConvertor extends javax.swing.JFrame {
     /**
      * Creates new form JavaCalculator
      */
     double temp, temperature;
     String i1 = "Celsius", i2 = "Fahrenheit";
 
-    public JavaCalculator() {
+    public TempratureConvertor() {
+        super("Temprature Convertor");
         initComponents();
     }
 
@@ -121,6 +122,10 @@ public class JavaCalculator extends javax.swing.JFrame {
         jButton1.setText("jButton1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        java.awt.Image icon = java.awt.Toolkit.getDefaultToolkit().getImage("icon.png");
+
+        setIconImage(icon);
 
         jTabbedPane1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
 
@@ -591,16 +596,16 @@ public class JavaCalculator extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(JavaCalculator.class.getName()).log(java.util.logging.Level.SEVERE, null,
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
                     ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(JavaCalculator.class.getName()).log(java.util.logging.Level.SEVERE, null,
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
                     ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(JavaCalculator.class.getName()).log(java.util.logging.Level.SEVERE, null,
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
                     ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(JavaCalculator.class.getName()).log(java.util.logging.Level.SEVERE, null,
+            java.util.logging.Logger.getLogger(TempratureConvertor.class.getName()).log(java.util.logging.Level.SEVERE, null,
                     ex);
         }
         // </editor-fold>
@@ -608,7 +613,7 @@ public class JavaCalculator extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new JavaCalculator().setVisible(true);
+                new TempratureConvertor().setVisible(true);
             }
         });
     }
