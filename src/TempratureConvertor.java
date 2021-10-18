@@ -587,6 +587,21 @@ public class TempratureConvertor extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         // <editor-fold defaultstate="collapsed" desc=" Look and feel setting code
         // (optional) ">
+        javax.swing.UIManager.put("control", new java.awt.Color(128, 128, 128));
+        javax.swing.UIManager.put("info", new java.awt.Color(128, 128, 128));
+        javax.swing.UIManager.put("nimbusBase", new java.awt.Color(18, 30, 49));
+        javax.swing.UIManager.put("nimbusAlertYellow", new java.awt.Color(248, 187, 0));
+        javax.swing.UIManager.put("nimbusDisabledText", new java.awt.Color(128, 128, 128));
+        javax.swing.UIManager.put("nimbusFocus", new java.awt.Color(115, 164, 209));
+        javax.swing.UIManager.put("nimbusGreen", new java.awt.Color(176, 179, 50));
+        javax.swing.UIManager.put("nimbusInfoBlue", new java.awt.Color(66, 139, 221));
+        javax.swing.UIManager.put("nimbusLightBackground", new java.awt.Color(18, 30, 49));
+        javax.swing.UIManager.put("nimbusOrange", new java.awt.Color(191, 98, 4));
+        javax.swing.UIManager.put("nimbusRed", new java.awt.Color(169, 46, 34));
+        javax.swing.UIManager.put("nimbusSelectedText", new java.awt.Color(255, 255, 255));
+        javax.swing.UIManager.put("nimbusSelectionBackground", new java.awt.Color(104, 93, 156));
+        javax.swing.UIManager.put("text", new java.awt.Color(230, 230, 230));
+
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
